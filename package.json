@@ -1,0 +1,9 @@
+{
+  "name": "companion-plugin-alarms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "alarms feature plugin for the Companion app.",
+  "dependencies": {
+    "@companion/plugin": "file:./sdk/js/@companion/plugin"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "alarms",
+  "name": "Alarms",
+  "version": "0.1.0",
+  "description": "Timed alarms and reminders: a settings tab, the ringing banner, and alarm tools the avatar can call.",
+  "abi": 2,
+  "permissions": ["storage", "events", "tools"],
+  "frontend": { "entry": "frontend.js" },
+  "backend": { "library": "libalarms_backend.dylib" }
+}

@@ -1,0 +1,19 @@
+[package]
+name = "alarms-backend"
+version = "0.1.0"
+description = "Alarms feature plugin backend for companion-tauri"
+license = "MIT"
+edition = "2021"
+
+[lib]
+name = "alarms_backend"
+crate-type = ["cdylib"]
+
+[dependencies]
+companion-plugin-sdk = { path = "../../sdk/rust/companion-plugin-sdk" }
+chrono = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+strip = true
