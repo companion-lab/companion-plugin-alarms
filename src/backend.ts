@@ -2,7 +2,7 @@
 // replacement for the former host useAlarms().
 
 import { useCallback, useEffect, useState } from "react";
-import type { PluginContext } from "@companion-lab/plugin";
+import type { PluginContext } from "../../../sdk/js/@companion/plugin";
 import type { Alarm } from "./alarms";
 
 type ListReply = { alarms: Alarm[] };
