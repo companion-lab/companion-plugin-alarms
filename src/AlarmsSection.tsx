@@ -2,7 +2,7 @@
 // UI kit comes from the host via ctx.ui and storage from the plugin backend).
 
 import { useEffect, useId, useRef, useState } from "react";
-import type { PluginContext } from "../../../sdk/js/@companion/plugin";
+import type { PluginContext } from "@companion-lab/plugin";
 import { useAlarms, type AlarmsApi } from "./backend";
 import {
   WEEKDAYS,

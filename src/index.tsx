@@ -1,7 +1,7 @@
 // Alarms feature plugin: settings tab, ringing banner widget, and alarm
 // tools (registered on the Rust backend side via `tools()`).
 
-import { definePlugin, type PluginContext } from "../../../sdk/js/@companion/plugin";
+import { definePlugin, type PluginContext } from "@companion-lab/plugin";
 import { AlarmsSection } from "./AlarmsSection";
 import { RingBanner } from "./RingBanner";
 
