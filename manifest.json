@@ -14,5 +14,7 @@
   },
   "backend": {
     "library": "libalarms_backend.dylib"
-  }
+  },
+  "versionCheckUrl": "https://github.com/companion-lab/companion-plugin-alarms/releases/latest",
+  "updateUrl": "https://github.com/companion-lab/companion-plugin-alarms/releases/latest/download/alarms-{version}-{platform}.zip"
 }
