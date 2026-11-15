@@ -1,7 +1,7 @@
 {
   "id": "alarms",
   "name": "Alarms",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Timed alarms and reminders: a settings tab, the ringing banner, and alarm tools the avatar can call.",
   "abi": 2,
   "permissions": [
