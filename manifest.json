@@ -3,7 +3,7 @@
   "name": "Alarms",
   "version": "0.3.2",
   "description": "Timed alarms and reminders: a settings tab, the ringing banner, and alarm tools the avatar can call.",
-  "abi": 2,
+  "abi": 3,
   "permissions": [
     "storage",
     "events",
